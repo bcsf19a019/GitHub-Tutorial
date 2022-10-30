@@ -5,25 +5,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Git-Tutorial</title>
 </head>
 
 <body>
     <h1>Git Tutorial</h1>
-    <h3>Git Init</h3>
+    <h2>Git Init</h2>
     <p>I created a index.html File. Than to make a local repository I have to initialize it by using following command:
     </p>
     <b>git init</b>
+    <br>
     <img src="git init.png" alt="git init">
-    <h3>Git Add</h3>
+    <h2>Git Add</h2>
     <p>After initializing the local repository We have to Stage our files and for this the following command is used:
     </p>
     <b>git add *</b>
+    <br>
     <img src="git add.png" alt="git add">
-    <h3>Git Commit</h3>
+    <h2>Git Commit</h2>
     <p>After staging the files to local repository. We have to commit the changes. This is done by following command:
     </p>
     <b>git commit -m "Commiting Changes" *</b>
+    <br>
+    <img src="git commit.png" alt="git commit">
+    <h2>GitHub Repository</h2>
+    <p>In order to cread a GitHub Repository: </p>
+    <ul>
+        <li>Go to Git Hub</li>
+        <li>Make a Account if Not Any</li>
+        <li>Create A Repository as shown in figure below: </li>
+    </ul>
+    <img src="GitHub-1.png" alt="">
+    <img src="GitHub-2.png" alt="">
+    <img src="GitHub-3.png" alt="">
+    <h2>Adding Origin</h2>
+    <p>To Store our Repository on GitHub we have to add a origin. This is done by following command: </p>
+    <b>git remote add origin https://github.com/bcsf19a019/GitHub-Tutorial.git</b>
+    <p>Above link will vary from repository to repository</p>
+    <img src="git origin.png" alt="">
+    <h2>Main Branch</h2>
+    <p>Before Pushing data to the GitHub repository we have to make the main Branch. This is done by the following
+        command: </p>
+    <b>git branch -M main</b>
+    <br>
+    <img src="git Main.png" alt="">
+    <h2>Push</h2>
+    <p>After making Main branch we have to push the data on the GitHub. This is done by the following command: </p>
+    <b>git push -u origin main</b>
+    <br>
+    <img src="git push.png" alt="">
+    <h2>Mutation</h2>
+    <p>Whenever changes are made in a file it has to be added, cmmitted and pushed again. Otherwise the changes made to
+        the file are not made in repository</p>
+    <p>For Example Some Changes are made in my index.html file. So I have to add, commit and then push it to Repository.
+    </p>
+    <p>Before Adding, Commiting and Pushing. The changes made in index.html are not made in GitHub Repository as shown
+        in figure below: </p>
+    <img src="Mutation-1.png" alt="">
+    <p>Afeter Adding, Commiting and Pushing. The changes are made in index.html file in GitHub Repository as shown in
+        figure below: </p>
+
+
+
+    <!-- <h2>Git Status</h2>
+    <p>We can check the status of the repository. For this the following command is used: </p>
+    <b>git status</b> 
+    <br> -->
 </body>
 
 </html>
